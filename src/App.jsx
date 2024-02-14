@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <BookingForm />
+      <BookingForm nameUser="Delphine" />
     </>
   )
 }

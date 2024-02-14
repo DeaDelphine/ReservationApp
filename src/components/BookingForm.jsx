@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-function BookingForm() {
+function BookingForm(nameUser) {
   const [name, setName] = useState("")
   const [date, setDate] = useState("")
 
