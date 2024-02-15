@@ -29,3 +29,16 @@ npm i jest jest-environment-jsdom
 /**
  * @jest-environment jsdom
  */
+
+ 1. Aller sur github 
+ 2. Puis dans settings 
+ 3. Dans secrets and variables
+ 4. Puis dans Action 
+ 5. Add New Repository Secret
+ 6. Ajouter la clé Netlify avec le nom dans le fichier ci.yaml
+ 7. Ajouter la seconde clé après déploiement du projet sur netlify 
+ 8. Aller dans site configuration 
+ 9. Puis prendre la clé Site ID
+
+ Token Netlify : 
+ `nfp_H11VCzhZtDCLa9XWVZnmz4CMMRuopVYQ1dda`

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-function BookingForm(nameUser) {
+function BookingForm({ nameUser }) {
   const [name, setName] = useState("")
   const [date, setDate] = useState("")
 
@@ -11,6 +11,7 @@ function BookingForm(nameUser) {
     setDate("");
   };
   return (
+    <div>
     <form onSubmit={handleSumbit}>
       <label htmlFor="name"> Name: </label>
       <input
@@ -28,6 +29,8 @@ function BookingForm(nameUser) {
       />
     <button type='submit'>Submit</button>
     </form>
+      <p>{ nameUser }</p>
+      </div>
   )
 }
 
